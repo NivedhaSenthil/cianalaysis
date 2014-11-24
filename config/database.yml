@@ -60,8 +60,8 @@ development:
 test:
   <<: *default
   database: ruby-getting-started_test
-  username: <%= ENV['SNAP_DB_PG_USER'] %>
-  password: <%= ENV['SNAP_DB_PG_PASSWORD'] %>
+  # username: <%= ENV['SNAP_DB_PG_USER'] %>
+  # password: <%= ENV['SNAP_DB_PG_PASSWORD'] %>
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
